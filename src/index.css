@@ -4,7 +4,19 @@ Global Styles
 ===============
 */
 
-:root {
+/* :root {
+  --clr-bcg: #fff;
+  --clr-font: #282c35;
+  --clr-primary: #d23669;
+} */
+
+.dark-theme {
+  --clr-bcg: #282c35;
+  --clr-font: #fff;
+  --clr-primary: #ffa7c4;
+}
+
+.light-theme {
   --clr-bcg: #fff;
   --clr-font: #282c35;
   --clr-primary: #d23669;
@@ -81,4 +93,10 @@ Navbar
   font-weight: bold;
   letter-spacing: 2px;
   cursor: pointer;
+  box-shadow: 1px 6px 1px rgba(136, 131, 131, 0.5);
+}
+
+.btn:active {
+  box-shadow: 1px 3px 1px rgba(136, 131, 131, 0.7);
+  transform: translateY(2px);
 }
